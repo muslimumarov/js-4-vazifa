@@ -8,10 +8,5 @@ elForm.addEventListener('submit', function(evt) {
   var nameInput = elInput.value;  //summa kelyapti
   var nameSeleсt = elSeleсt.value; //kurs
   var total = nameInput / nameSeleсt; //kopaygani
-  elText.textContent = total; // natija
-   if (total <= 0) {
-  elText.textContent =  ('tog\'ri summa kiriting');
-   } else {
   elText.textContent = total;
-   }
 });
